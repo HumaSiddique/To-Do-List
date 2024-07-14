@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="newtask">
+            <form class="form">
+                <input class="input" id="list" placeholder="Type your text" required="" type="text">
+                <button type="button" onclick="push()" class="button-name">ADD</button>
+            </form>
+        </div>
+        <div id="taskList" class="task-list">
+            <!-- Tasks will be dynamically added here -->
+        </div>
+    </div>
+</body>
+</html>
